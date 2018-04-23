@@ -29,11 +29,13 @@
                 <feature name="MidiFile"/>
                 <feature name="Predefined"/>
             </alt>
-            <alt abstract="true" mandatory="true" name="Loops">
+            <alt abstract="true" name="Loops">
                 <feature abstract="true" name="Repeat"/>
                 <feature name="Once"/>
             </alt>
-            <feature abstract="true" name="Chordschema"/>
+            <and abstract="true" name="Chordschema">
+                <feature name="Blues"/>
+            </and>
         </and>
     </struct>
     <constraints>
@@ -42,6 +44,14 @@
                 <var>MidiFile</var>
                 <not>
                     <var>Chordschema</var>
+                </not>
+            </imp>
+        </rule>
+        <rule>
+            <imp>
+                <var>Keyboard</var>
+                <not>
+                    <var>Loops</var>
                 </not>
             </imp>
         </rule>
