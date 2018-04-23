@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="MusicPlayerTask1">
+            <or abstract="true" mandatory="true" name="Instrument">
+                <feature name="Piano"/>
+                <feature name="Violin"/>
+                <feature abstract="true" name="Cello"/>
+                <feature abstract="true" name="Viola"/>
+                <feature abstract="true" name="Guitar"/>
+                <feature abstract="true" name="Flute"/>
+                <feature name="Drums"/>
+            </or>
+            <alt abstract="true" mandatory="true" name="Key">
+                <feature name="C Maj"/>
+                <feature name="F Maj"/>
+                <feature abstract="true" name="G Maj"/>
+                <feature name="A min"/>
+                <feature abstract="true" name="D min"/>
+                <feature abstract="true" name="E min"/>
+            </alt>
+            <alt abstract="true" mandatory="true" name="Tempo">
+                <feature abstract="true" name="Andante"/>
+                <feature name="Allegro"/>
+            </alt>
+            <alt abstract="true" mandatory="true" name="Input">
+                <feature abstract="true" name="Keyboard"/>
+                <feature name="MidiFile"/>
+                <feature name="Predefined"/>
+            </alt>
+            <alt abstract="true" mandatory="true" name="Loops">
+                <feature abstract="true" name="Repeat"/>
+                <feature name="Once"/>
+            </alt>
+            <feature abstract="true" name="Chordschema"/>
+        </and>
+    </struct>
+    <constraints>
+        <rule>
+            <imp>
+                <var>MidiFile</var>
+                <not>
+                    <var>Chordschema</var>
+                </not>
+            </imp>
+        </rule>
+    </constraints>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>
