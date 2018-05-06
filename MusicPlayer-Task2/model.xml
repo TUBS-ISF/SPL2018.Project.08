@@ -18,7 +18,7 @@ The sounds of a violin are incorporated into the song
                 <feature abstract="true" name="Viola"/>
                 <feature abstract="true" name="Guitar"/>
                 <feature abstract="true" name="Flute"/>
-                <feature name="Drums">
+                <feature abstract="true" name="Drums">
                     <description>
 Various percussion elements are used in the song
 </description>
@@ -30,13 +30,13 @@ Various percussion elements are used in the song
 A melody is played in CMaj Key.
 </description>
                 </feature>
-                <feature name="F Maj">
+                <feature abstract="true" name="F Maj">
                     <description>
 A melody is played in FMaj Key.
 </description>
                 </feature>
                 <feature abstract="true" name="G Maj"/>
-                <feature name="A min">
+                <feature abstract="true" name="A min">
                     <description>
 A melody is played in AMin Key.
 </description>
@@ -54,7 +54,7 @@ The tempo in which the song is played is fast.
             </alt>
             <alt abstract="true" mandatory="true" name="Input">
                 <feature abstract="true" name="Keyboard"/>
-                <feature name="MidiFile">
+                <feature abstract="true" name="MidiFile">
                     <description>
 The input can come from a Midi File.
 </description>
@@ -74,7 +74,7 @@ The song is played just once
                 </feature>
             </alt>
             <and abstract="true" name="Chordschema">
-                <feature name="Blues">
+                <feature abstract="true" name="Blues">
                     <description>
 The underlying chord schema is a blues one
 </description>
