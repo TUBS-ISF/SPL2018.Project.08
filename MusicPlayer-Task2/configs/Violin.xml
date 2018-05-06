@@ -3,26 +3,21 @@
     <feature automatic="selected" name="MusicPlayerTask1"/>
     <feature automatic="selected" name="Instrument"/>
     <feature manual="selected" name="Violin"/>
-    <feature manual="selected" name="Cello"/>
-    <feature manual="selected" name="Viola"/>
-    <feature manual="selected" name="Drums"/>
     <feature automatic="selected" name="Key"/>
-    <feature automatic="unselected" name="C Maj"/>
+    <feature manual="selected" name="C Maj"/>
     <feature automatic="unselected" name="F Maj"/>
     <feature automatic="unselected" name="G Maj"/>
-    <feature manual="selected" name="A min"/>
+    <feature automatic="unselected" name="A min"/>
     <feature automatic="unselected" name="D min"/>
     <feature automatic="unselected" name="E min"/>
     <feature automatic="selected" name="Tempo"/>
-    <feature automatic="unselected" name="Andante"/>
-    <feature manual="selected" name="Allegro"/>
+    <feature manual="selected" name="Andante"/>
+    <feature automatic="unselected" name="Allegro"/>
     <feature automatic="selected" name="Input"/>
     <feature automatic="unselected" name="Keyboard"/>
     <feature automatic="unselected" name="MidiFile"/>
-    <feature automatic="selected" manual="selected" name="Predefined"/>
+    <feature manual="selected" name="Predefined"/>
     <feature automatic="selected" name="Loops"/>
     <feature automatic="unselected" name="Repeat"/>
     <feature manual="selected" name="Once"/>
-    <feature automatic="selected" manual="selected" name="Chordschema"/>
-    <feature manual="selected" name="Blues"/>
 </configuration>

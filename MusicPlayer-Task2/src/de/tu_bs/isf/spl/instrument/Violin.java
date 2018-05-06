@@ -1,14 +1,14 @@
 package de.tu_bs.isf.spl.instrument;
 
-public class Piano implements IInstrument {
+public class Violin implements IInstrument {
 
-	public Piano() {
+	public Violin() {
 		
 	}
 	
 	@Override
 	public String getPattern() {
-		return "piano";
+		return "violin";
 	}
 
 }

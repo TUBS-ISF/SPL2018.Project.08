@@ -4,6 +4,7 @@ import org.jfugue.player.Player;
 
 import de.tu_bs.isf.spl.instrument.IInstrument;
 import de.tu_bs.isf.spl.instrument.Piano;
+import de.tu_bs.isf.spl.instrument.Violin;
 import properties.PropertyManager;
 
 public class MusicPlayer {
@@ -13,6 +14,9 @@ public class MusicPlayer {
 		
 		if(PropertyManager.getProperty("Piano")) {
 			instrument = new Piano();
+		}
+		if(PropertyManager.getProperty("Violin")) {
+			instrument = new Violin();
 		}
 		
 		String pattern = createPattern(instrument);
