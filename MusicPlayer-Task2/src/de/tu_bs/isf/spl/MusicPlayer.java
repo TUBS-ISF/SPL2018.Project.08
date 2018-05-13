@@ -5,6 +5,8 @@ import org.jfugue.player.Player;
 import de.tu_bs.isf.spl.instrument.IInstrument;
 import de.tu_bs.isf.spl.instrument.Piano;
 import de.tu_bs.isf.spl.instrument.Violin;
+import de.tu_bs.isf.spl.melody.IMelodyProducer;
+import de.tu_bs.isf.spl.melody.PredefinedProducer;
 import properties.PropertyManager;
 
 public class MusicPlayer {
@@ -19,17 +21,19 @@ public class MusicPlayer {
 			instrument = new Violin();
 		}
 		
-		String pattern = createPattern(instrument);
+		IMelodyProducer melody = new PredefinedProducer();
+		
+		String pattern = createPattern(instrument, melody);
 		
 		Player player = new Player();
 		player.play(pattern);
 	}
 	
-	private static String createPattern(IInstrument instrument) {
+	private static String createPattern(IInstrument instrument, IMelodyProducer producer) {
 		final String instrumentPattern = "V0 I[" + instrument.getPattern() + "] ";
 	
 		
-		return instrumentPattern + "Dq Eq Fq Gq | Ah Ah | Bq Bq Bq Bq | Ah Rh | Bq Bq Bq Bq | Ah Rh | Gq Gq Gq Gq | Fh Fh | Aq Aq Aq Aq | Dh";
+		return instrumentPattern + producer.getMelodyPattern();
 	}
 
 }
