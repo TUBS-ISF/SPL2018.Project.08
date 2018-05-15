@@ -31,6 +31,8 @@
     	<groupId>jfugue</groupId>
     	<artifactId>jfugue</artifactId>
     	<version>5.0.9</version>
+    	<scope>system</scope>
+    	<systemPath>${basedir}/../JFugue/jfugue-5.0.9.jar</systemPath>
 	</dependency>
   </dependencies>
 </project>
