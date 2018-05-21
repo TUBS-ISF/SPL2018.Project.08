@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="MusicPlayerTask1"/>
+    <feature automatic="selected" name="Instrument"/>
+    <feature manual="selected" name="Piano"/>
+    <feature automatic="selected" name="Key"/>
+    <feature manual="selected" name="C Maj"/>
+    <feature automatic="unselected" name="F Maj"/>
+    <feature automatic="unselected" name="G Maj"/>
+    <feature automatic="unselected" name="A min"/>
+    <feature automatic="unselected" name="D min"/>
+    <feature automatic="unselected" name="E min"/>
+    <feature automatic="selected" name="Tempo"/>
+    <feature automatic="unselected" name="Andante"/>
+    <feature manual="selected" name="Allegro"/>
+    <feature automatic="selected" name="Input"/>
+    <feature automatic="unselected" name="Keyboard"/>
+    <feature automatic="unselected" name="MidiFile"/>
+    <feature manual="selected" name="Predefined"/>
+    <feature automatic="selected" name="Loops"/>
+    <feature automatic="unselected" name="Repeat"/>
+    <feature manual="selected" name="Once"/>
+</configuration>
