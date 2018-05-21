@@ -2,13 +2,17 @@
 <configuration>
     <feature automatic="selected" name="MusicPlayerTask1"/>
     <feature automatic="selected" name="Instrument"/>
-    <feature manual="selected" name="Violin"/>
-    <feature manual="selected" name="Cello"/>
-    <feature manual="selected" name="Viola"/>
+    <feature manual="selected" name="Piano"/>
+    <feature automatic="unselected" name="Violin"/>
+    <feature automatic="unselected" name="Cello"/>
+    <feature automatic="unselected" name="Viola"/>
+    <feature automatic="unselected" name="Guitar"/>
+    <feature automatic="unselected" name="Flute"/>
+    <feature automatic="unselected" name="Drums"/>
     <feature automatic="selected" name="Key"/>
-    <feature automatic="unselected" name="C Maj"/>
+    <feature manual="selected" name="C Maj"/>
     <feature automatic="unselected" name="F Maj"/>
-    <feature manual="selected" name="G Maj"/>
+    <feature automatic="unselected" name="G Maj"/>
     <feature automatic="unselected" name="A min"/>
     <feature automatic="unselected" name="D min"/>
     <feature automatic="unselected" name="E min"/>
