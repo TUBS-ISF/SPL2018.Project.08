@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="MusicPlayerTask1">
+            <alt abstract="true" mandatory="true" name="Instrument">
+                <feature name="Piano">
+                    <description>
+The sounds of a piano are incorporated into the song
+</description>
+                </feature>
+                <feature name="Violin">
+                    <description>
+The sounds of a violin are incorporated into the song
+</description>
+                </feature>
+                <feature abstract="true" name="Cello"/>
+                <feature abstract="true" name="Viola"/>
+                <feature abstract="true" name="Guitar"/>
+                <feature abstract="true" name="Flute"/>
+                <feature abstract="true" name="Drums">
+                    <description>
+Various percussion elements are used in the song
+</description>
+                </feature>
+            </alt>
+            <alt abstract="true" mandatory="true" name="Key">
+                <feature name="C Maj">
+                    <description>
+A melody is played in CMaj Key.
+</description>
+                </feature>
+                <feature abstract="true" name="F Maj">
+                    <description>
+A melody is played in FMaj Key.
+</description>
+                </feature>
+                <feature abstract="true" name="G Maj"/>
+                <feature abstract="true" name="A min">
+                    <description>
+A melody is played in AMin Key.
+</description>
+                </feature>
+                <feature abstract="true" name="D min"/>
+                <feature abstract="true" name="E min"/>
+            </alt>
+            <alt abstract="true" mandatory="true" name="Tempo">
+                <feature name="Andante"/>
+                <feature name="Allegro">
+                    <description>
+The tempo in which the song is played is fast.
+</description>
+                </feature>
+            </alt>
+            <alt abstract="true" mandatory="true" name="Input">
+                <feature abstract="true" name="Keyboard"/>
+                <feature abstract="true" name="MidiFile">
+                    <description>
+The input can come from a Midi File.
+</description>
+                </feature>
+                <feature name="Predefined">
+                    <description>
+There is a hardcoded melody which is played
+</description>
+                </feature>
+            </alt>
+            <alt abstract="true" name="Loops">
+                <feature abstract="true" name="Repeat"/>
+                <feature name="Once">
+                    <description>
+The song is played just once
+</description>
+                </feature>
+            </alt>
+            <and abstract="true" name="Chordschema">
+                <feature abstract="true" name="Blues">
+                    <description>
+The underlying chord schema is a blues one
+</description>
+                </feature>
+            </and>
+        </and>
+    </struct>
+    <constraints>
+        <rule>
+            <imp>
+                <var>MidiFile</var>
+                <not>
+                    <var>Chordschema</var>
+                </not>
+            </imp>
+        </rule>
+        <rule>
+            <imp>
+                <var>Keyboard</var>
+                <not>
+                    <var>Loops</var>
+                </not>
+            </imp>
+        </rule>
+    </constraints>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>

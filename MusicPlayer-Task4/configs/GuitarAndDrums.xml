@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="MusicPlayerTask1"/>
+    <feature automatic="selected" name="Instrument"/>
+    <feature manual="selected" name="Piano"/>
+    <feature automatic="unselected" name="Violin"/>
+    <feature automatic="unselected" name="Cello"/>
+    <feature automatic="unselected" name="Viola"/>
+    <feature automatic="unselected" name="Guitar"/>
+    <feature automatic="unselected" name="Flute"/>
+    <feature automatic="unselected" name="Drums"/>
+    <feature automatic="selected" name="Key"/>
+    <feature manual="selected" name="C Maj"/>
+    <feature automatic="unselected" name="F Maj"/>
+    <feature automatic="unselected" name="G Maj"/>
+    <feature automatic="unselected" name="A min"/>
+    <feature automatic="unselected" name="D min"/>
+    <feature automatic="unselected" name="E min"/>
+    <feature automatic="selected" name="Tempo"/>
+    <feature manual="selected" name="Andante"/>
+    <feature automatic="unselected" name="Allegro"/>
+    <feature automatic="selected" name="Input"/>
+    <feature manual="selected" name="Keyboard"/>
+    <feature automatic="unselected" name="MidiFile"/>
+    <feature automatic="unselected" name="Predefined"/>
+    <feature automatic="unselected" name="Loops"/>
+    <feature automatic="unselected" name="Repeat"/>
+    <feature automatic="unselected" name="Once"/>
+    <feature automatic="selected" manual="selected" name="Chordschema"/>
+    <feature manual="selected" name="Blues"/>
+</configuration>
