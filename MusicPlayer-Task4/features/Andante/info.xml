@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <plugins>
-	<interface id="de.tu_bs.isf.spl.instrument.IInstrument">
-		<class>Piano</class>
+	<interface id="de.tu_bs.isf.spl.tempo.ITempo">
+		<class>Andante</class>
 	</interface>
 </plugins>

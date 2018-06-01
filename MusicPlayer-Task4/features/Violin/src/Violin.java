@@ -1,4 +1,4 @@
-package de.tu_bs.isf.spl.instrument;
+import de.tu_bs.isf.spl.instrument.IInstrument;
 
 public class Violin implements IInstrument {
 

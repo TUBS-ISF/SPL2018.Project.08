@@ -4,28 +4,27 @@ import java.util.List;
 
 import org.jfugue.pattern.Pattern;
 import org.jfugue.player.Player;
-import org.jfugue.theory.ChordProgression;
 
 import de.tu_bs.isf.spl.instrument.IInstrument;
-import de.tu_bs.isf.spl.instrument.Violin;
 import de.tu_bs.isf.spl.melody.IMelodyProducer;
 import de.tu_bs.isf.spl.melody.PredefinedProducer;
+import de.tu_bs.isf.spl.tempo.ITempo;
 import loader.PluginLoader;
 
 public class MusicPlayer {
 
 	public static void main(String[] args) {		
 		List<IInstrument> instruments = PluginLoader.load(IInstrument.class);
-		System.out.println(instruments);
+		IInstrument actualInstrument = instruments.get(0);
 		
 //@		IInstrument instrument = new Violin();
 		
 		IMelodyProducer melody = new PredefinedProducer();
 		
-		//Pattern pattern = createPattern(instrument, melody);
+		Pattern pattern = createPattern(actualInstrument, melody);
 		
 		Player player = new Player();
-		//player.play(pattern);
+		player.play(pattern);
 	}
 	
 	private static Pattern createPattern(IInstrument instrument, IMelodyProducer producer) {
@@ -33,8 +32,10 @@ public class MusicPlayer {
 	
 		final Pattern melody = new Pattern(instrumentPattern + producer.getMelodyPattern()); 
 		
-//@		melody.setTempo(70);
-		melody.setTempo(120);
+		List<ITempo> tempo = PluginLoader.load(ITempo.class);
+		ITempo actualTempo = tempo.get(0);
+		
+		melody.setTempo(actualTempo.getTempo());
 		
 		return melody;
 	}

@@ -25,24 +25,24 @@ Various percussion elements are used in the song
                 </feature>
             </alt>
             <alt abstract="true" mandatory="true" name="Key">
-                <feature name="C Maj">
+                <feature name="CMaj">
                     <description>
 A melody is played in CMaj Key.
 </description>
                 </feature>
-                <feature abstract="true" name="F Maj">
+                <feature abstract="true" name="FMaj">
                     <description>
 A melody is played in FMaj Key.
 </description>
                 </feature>
-                <feature abstract="true" name="G Maj"/>
-                <feature abstract="true" name="A min">
+                <feature abstract="true" name="GMaj"/>
+                <feature abstract="true" name="Amin">
                     <description>
 A melody is played in AMin Key.
 </description>
                 </feature>
-                <feature abstract="true" name="D min"/>
-                <feature abstract="true" name="E min"/>
+                <feature abstract="true" name="Dmin"/>
+                <feature abstract="true" name="Emin"/>
             </alt>
             <alt abstract="true" mandatory="true" name="Tempo">
                 <feature name="Andante"/>

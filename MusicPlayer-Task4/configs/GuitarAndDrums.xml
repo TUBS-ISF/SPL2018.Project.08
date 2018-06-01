@@ -10,12 +10,12 @@
     <feature automatic="unselected" name="Flute"/>
     <feature automatic="unselected" name="Drums"/>
     <feature automatic="selected" name="Key"/>
-    <feature manual="selected" name="C Maj"/>
-    <feature automatic="unselected" name="F Maj"/>
-    <feature automatic="unselected" name="G Maj"/>
-    <feature automatic="unselected" name="A min"/>
-    <feature automatic="unselected" name="D min"/>
-    <feature automatic="unselected" name="E min"/>
+    <feature manual="selected" name="CMaj"/>
+    <feature automatic="unselected" name="FMaj"/>
+    <feature automatic="unselected" name="GMaj"/>
+    <feature automatic="unselected" name="Amin"/>
+    <feature automatic="unselected" name="Dmin"/>
+    <feature automatic="unselected" name="Emin"/>
     <feature automatic="selected" name="Tempo"/>
     <feature manual="selected" name="Andante"/>
     <feature automatic="unselected" name="Allegro"/>
