@@ -3,6 +3,12 @@
     <feature automatic="selected" name="MusicPlayerTask1"/>
     <feature automatic="selected" name="Instrument"/>
     <feature manual="selected" name="Piano"/>
+    <feature automatic="unselected" name="Violin"/>
+    <feature automatic="unselected" name="Cello"/>
+    <feature automatic="unselected" name="Viola"/>
+    <feature automatic="unselected" name="Guitar"/>
+    <feature automatic="unselected" name="Flute"/>
+    <feature automatic="unselected" name="Drums"/>
     <feature automatic="selected" name="Key"/>
     <feature manual="selected" name="CMaj"/>
     <feature automatic="unselected" name="FMaj"/>
@@ -10,6 +16,7 @@
     <feature automatic="unselected" name="Amin"/>
     <feature automatic="unselected" name="Dmin"/>
     <feature automatic="unselected" name="Emin"/>
+    <feature automatic="unselected" name="DMaj"/>
     <feature automatic="selected" name="Tempo"/>
     <feature automatic="unselected" name="Andante"/>
     <feature manual="selected" name="Allegro"/>

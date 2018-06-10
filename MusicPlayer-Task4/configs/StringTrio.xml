@@ -13,9 +13,10 @@
     <feature automatic="unselected" name="CMaj"/>
     <feature automatic="unselected" name="FMaj"/>
     <feature automatic="unselected" name="GMaj"/>
-    <feature manual="selected" name="Amin"/>
+    <feature automatic="unselected" name="Amin"/>
     <feature automatic="unselected" name="Dmin"/>
     <feature automatic="unselected" name="Emin"/>
+    <feature manual="selected" name="DMaj"/>
     <feature automatic="selected" name="Tempo"/>
     <feature automatic="unselected" name="Andante"/>
     <feature manual="selected" name="Allegro"/>

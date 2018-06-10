@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <plugins>
 	<interface id="de.tu_bs.isf.spl.key.IKey">
-		<class>CMaj</class>
+		<class>DMaj</class>
 	</interface>
 </plugins>

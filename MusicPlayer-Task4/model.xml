@@ -43,6 +43,7 @@ A melody is played in AMin Key.
                 </feature>
                 <feature abstract="true" name="Dmin"/>
                 <feature abstract="true" name="Emin"/>
+                <feature name="DMaj"/>
             </alt>
             <alt abstract="true" mandatory="true" name="Tempo">
                 <feature name="Andante"/>
