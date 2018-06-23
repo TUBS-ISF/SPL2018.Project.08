@@ -14,10 +14,10 @@ The sounds of a piano are incorporated into the song
 The sounds of a violin are incorporated into the song
 </description>
                 </feature>
-                <feature abstract="true" name="Cello"/>
+                <feature name="Cello"/>
                 <feature abstract="true" name="Viola"/>
                 <feature abstract="true" name="Guitar"/>
-                <feature abstract="true" name="Flute"/>
+                <feature name="Flute"/>
                 <feature abstract="true" name="Drums">
                     <description>
 Various percussion elements are used in the song
