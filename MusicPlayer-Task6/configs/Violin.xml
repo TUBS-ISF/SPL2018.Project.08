@@ -10,13 +10,13 @@
     <feature automatic="unselected" name="Flute"/>
     <feature automatic="unselected" name="Drums"/>
     <feature automatic="selected" name="Key"/>
-    <feature manual="selected" name="CMaj"/>
+    <feature automatic="unselected" name="CMaj"/>
     <feature automatic="unselected" name="FMaj"/>
     <feature automatic="unselected" name="GMaj"/>
     <feature automatic="unselected" name="Amin"/>
     <feature automatic="unselected" name="Dmin"/>
     <feature automatic="unselected" name="Emin"/>
-    <feature automatic="unselected" name="DMaj"/>
+    <feature manual="selected" name="DMaj"/>
     <feature automatic="selected" name="Tempo"/>
     <feature manual="selected" name="Andante"/>
     <feature automatic="unselected" name="Allegro"/>
