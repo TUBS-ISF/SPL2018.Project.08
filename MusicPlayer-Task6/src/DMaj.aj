@@ -1,3 +1,7 @@
+import de.tu_bs.isf.spl.key.*;
+
+import org.jfugue.pattern.*;
+
 public aspect DMaj {
 	pointcut getKey() : execution(Pattern Key.getMelodyInKey());
 	
